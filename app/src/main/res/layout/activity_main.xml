@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/dd_logo"
+        android:layout_width="200dp"
+        android:src="@drawable/dd_logo"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="165sp"
+        android:layout_height="54dp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:text="Hamburger" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <EditText
+        android:id="@+id/textPersonName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint=" Enter food name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Food"
+        android:onClick="click"
+        app:backgroundTint="#4E6E6E" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="Decide"
+        android:onClick="clickRandom"
+        app:backgroundTint="#3A5553" />
+
+</LinearLayout>
